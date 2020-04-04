@@ -1,0 +1,21 @@
+{
+	"name": "Network Automation",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"service": "network-automation",
+	"workspaceFolder": "/ansible",
+	"settings": { 
+		"terminal.integrated.shell.linux": "zsh"
+	},
+
+	"extensions": [
+		"ms-python.python",
+		"hookyqr.beautify",
+		"davidanson.vscode-markdownlint",
+		"christian-kohler.path-intellisense",
+		"vscoss.vscode-ansible",
+	],
+	"remoteUser": "coder"
+}

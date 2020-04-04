@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  network-automation:
+    user: coder    
+    image: network-automation
+    hostname: network-automation
+    container_name: network-automation
+    build: .
+    ports:
+      - 22
