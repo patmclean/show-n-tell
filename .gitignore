@@ -4,6 +4,9 @@
 
 ### Ansible ###
 *.retry
+### Testing
+hosts
+output/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
